@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC0E7C329DCEE7B00EB34F2 /* nostrlightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0E7C229DCEE7B00EB34F2 /* nostrlightApp.swift */; };
+		0FC0E7C529DCEE7B00EB34F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0E7C429DCEE7B00EB34F2 /* ContentView.swift */; };
+		0FC0E7C729DCEE7D00EB34F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0E7C629DCEE7D00EB34F2 /* Assets.xcassets */; };
+		0FC0E7CA29DCEE7D00EB34F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0E7C929DCEE7D00EB34F2 /* Preview Assets.xcassets */; };
+		0FC0E7D429DCEE7E00EB34F2 /* nostrlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0E7D329DCEE7E00EB34F2 /* nostrlightTests.swift */; };
+		0FC0E7DE29DCEE7E00EB34F2 /* nostrlightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0E7DD29DCEE7E00EB34F2 /* nostrlightUITests.swift */; };
+		0FC0E7E029DCEE7E00EB34F2 /* nostrlightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0E7DF29DCEE7E00EB34F2 /* nostrlightUITestsLaunchTests.swift */; };
+		0FC0E7EE29DCEECA00EB34F2 /* breez_sdkFFI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC0E7ED29DCEECA00EB34F2 /* breez_sdkFFI.xcframework */; };
+		0FC0E7EF29DCEECA00EB34F2 /* breez_sdkFFI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC0E7ED29DCEECA00EB34F2 /* breez_sdkFFI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FC0E7F229DCEF2C00EB34F2 /* breez_sdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0E7F129DCEF2C00EB34F2 /* breez_sdk.swift */; };
+		0FC0E7F429DCEF5900EB34F2 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0E7F329DCEF5900EB34F2 /* BaseViewModel.swift */; };
+		712B16AAE110775FA288EF6B /* Pods_nostrlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324C56D7345EBD3B04FA4ACA /* Pods_nostrlight.framework */; };
+		9A3118DA0FCE14ACB5C3FB8F /* Pods_nostrlightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F96CA3FE9BA7EF69C03671 /* Pods_nostrlightTests.framework */; };
+		E4EDDA6111FEE28CA3381DE7 /* Pods_nostrlight_nostrlightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FCEB2AE8382228715B922B /* Pods_nostrlight_nostrlightUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FC0E7D029DCEE7E00EB34F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC0E7B729DCEE7B00EB34F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FC0E7BE29DCEE7B00EB34F2;
+			remoteInfo = nostrlight;
+		};
+		0FC0E7DA29DCEE7E00EB34F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC0E7B729DCEE7B00EB34F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FC0E7BE29DCEE7B00EB34F2;
+			remoteInfo = nostrlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FC0E7F029DCEECB00EB34F2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0FC0E7EF29DCEECA00EB34F2 /* breez_sdkFFI.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05194EA5A109FECB45A4F2B1 /* Pods-nostrlight-nostrlightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nostrlight-nostrlightUITests.release.xcconfig"; path = "Target Support Files/Pods-nostrlight-nostrlightUITests/Pods-nostrlight-nostrlightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0FC0E7BF29DCEE7B00EB34F2 /* nostrlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nostrlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC0E7C229DCEE7B00EB34F2 /* nostrlightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nostrlightApp.swift; sourceTree = "<group>"; };
+		0FC0E7C429DCEE7B00EB34F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FC0E7C629DCEE7D00EB34F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FC0E7C929DCEE7D00EB34F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FC0E7CF29DCEE7E00EB34F2 /* nostrlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nostrlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC0E7D329DCEE7E00EB34F2 /* nostrlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nostrlightTests.swift; sourceTree = "<group>"; };
+		0FC0E7D929DCEE7E00EB34F2 /* nostrlightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nostrlightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC0E7DD29DCEE7E00EB34F2 /* nostrlightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nostrlightUITests.swift; sourceTree = "<group>"; };
+		0FC0E7DF29DCEE7E00EB34F2 /* nostrlightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nostrlightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FC0E7ED29DCEECA00EB34F2 /* breez_sdkFFI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = breez_sdkFFI.xcframework; path = "../breez-sdk/libs/sdk-bindings/ffi/xcframework/breez_sdkFFI.xcframework"; sourceTree = "<group>"; };
+		0FC0E7F129DCEF2C00EB34F2 /* breez_sdk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = breez_sdk.swift; sourceTree = "<group>"; };
+		0FC0E7F329DCEF5900EB34F2 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		324C56D7345EBD3B04FA4ACA /* Pods_nostrlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nostrlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC47E24FFBE6407DCB95647 /* Pods-nostrlight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nostrlight.release.xcconfig"; path = "Target Support Files/Pods-nostrlight/Pods-nostrlight.release.xcconfig"; sourceTree = "<group>"; };
+		85493342B1CA1D6A810896E4 /* Pods-nostrlight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nostrlight.debug.xcconfig"; path = "Target Support Files/Pods-nostrlight/Pods-nostrlight.debug.xcconfig"; sourceTree = "<group>"; };
+		89FCEB2AE8382228715B922B /* Pods_nostrlight_nostrlightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nostrlight_nostrlightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F96CA3FE9BA7EF69C03671 /* Pods_nostrlightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nostrlightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E48C570128739AFA19A36E /* Pods-nostrlightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nostrlightTests.debug.xcconfig"; path = "Target Support Files/Pods-nostrlightTests/Pods-nostrlightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDACF351039DB3FA1CB753E9 /* Pods-nostrlightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nostrlightTests.release.xcconfig"; path = "Target Support Files/Pods-nostrlightTests/Pods-nostrlightTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE40060E79C9730098A3EA4E /* Pods-nostrlight-nostrlightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nostrlight-nostrlightUITests.debug.xcconfig"; path = "Target Support Files/Pods-nostrlight-nostrlightUITests/Pods-nostrlight-nostrlightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FC0E7BC29DCEE7B00EB34F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC0E7EE29DCEECA00EB34F2 /* breez_sdkFFI.xcframework in Frameworks */,
+				712B16AAE110775FA288EF6B /* Pods_nostrlight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC0E7CC29DCEE7E00EB34F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3118DA0FCE14ACB5C3FB8F /* Pods_nostrlightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC0E7D629DCEE7E00EB34F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EDDA6111FEE28CA3381DE7 /* Pods_nostrlight_nostrlightUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC0E7B629DCEE7B00EB34F2 = {
+			isa = PBXGroup;
+			children = (
+				0FC0E7C129DCEE7B00EB34F2 /* nostrlight */,
+				0FC0E7D229DCEE7E00EB34F2 /* nostrlightTests */,
+				0FC0E7DC29DCEE7E00EB34F2 /* nostrlightUITests */,
+				0FC0E7C029DCEE7B00EB34F2 /* Products */,
+				0FC0E7EC29DCEEC900EB34F2 /* Frameworks */,
+				40AA227372D00DBA18BB3C31 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0FC0E7C029DCEE7B00EB34F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0E7BF29DCEE7B00EB34F2 /* nostrlight.app */,
+				0FC0E7CF29DCEE7E00EB34F2 /* nostrlightTests.xctest */,
+				0FC0E7D929DCEE7E00EB34F2 /* nostrlightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FC0E7C129DCEE7B00EB34F2 /* nostrlight */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0E7F129DCEF2C00EB34F2 /* breez_sdk.swift */,
+				0FC0E7C229DCEE7B00EB34F2 /* nostrlightApp.swift */,
+				0FC0E7C429DCEE7B00EB34F2 /* ContentView.swift */,
+				0FC0E7F329DCEF5900EB34F2 /* BaseViewModel.swift */,
+				0FC0E7C629DCEE7D00EB34F2 /* Assets.xcassets */,
+				0FC0E7C829DCEE7D00EB34F2 /* Preview Content */,
+			);
+			path = nostrlight;
+			sourceTree = "<group>";
+		};
+		0FC0E7C829DCEE7D00EB34F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0E7C929DCEE7D00EB34F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FC0E7D229DCEE7E00EB34F2 /* nostrlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0E7D329DCEE7E00EB34F2 /* nostrlightTests.swift */,
+			);
+			path = nostrlightTests;
+			sourceTree = "<group>";
+		};
+		0FC0E7DC29DCEE7E00EB34F2 /* nostrlightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0E7DD29DCEE7E00EB34F2 /* nostrlightUITests.swift */,
+				0FC0E7DF29DCEE7E00EB34F2 /* nostrlightUITestsLaunchTests.swift */,
+			);
+			path = nostrlightUITests;
+			sourceTree = "<group>";
+		};
+		0FC0E7EC29DCEEC900EB34F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0E7ED29DCEECA00EB34F2 /* breez_sdkFFI.xcframework */,
+				324C56D7345EBD3B04FA4ACA /* Pods_nostrlight.framework */,
+				89FCEB2AE8382228715B922B /* Pods_nostrlight_nostrlightUITests.framework */,
+				92F96CA3FE9BA7EF69C03671 /* Pods_nostrlightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40AA227372D00DBA18BB3C31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85493342B1CA1D6A810896E4 /* Pods-nostrlight.debug.xcconfig */,
+				5BC47E24FFBE6407DCB95647 /* Pods-nostrlight.release.xcconfig */,
+				EE40060E79C9730098A3EA4E /* Pods-nostrlight-nostrlightUITests.debug.xcconfig */,
+				05194EA5A109FECB45A4F2B1 /* Pods-nostrlight-nostrlightUITests.release.xcconfig */,
+				95E48C570128739AFA19A36E /* Pods-nostrlightTests.debug.xcconfig */,
+				BDACF351039DB3FA1CB753E9 /* Pods-nostrlightTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FC0E7BE29DCEE7B00EB34F2 /* nostrlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC0E7E329DCEE7E00EB34F2 /* Build configuration list for PBXNativeTarget "nostrlight" */;
+			buildPhases = (
+				04D8B7F86E3EA79F1B45BC4B /* [CP] Check Pods Manifest.lock */,
+				0FC0E7BB29DCEE7B00EB34F2 /* Sources */,
+				0FC0E7BC29DCEE7B00EB34F2 /* Frameworks */,
+				0FC0E7BD29DCEE7B00EB34F2 /* Resources */,
+				0FC0E7F029DCEECB00EB34F2 /* Embed Frameworks */,
+				41EC5C8626A1C5BEDAA61735 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nostrlight;
+			productName = nostrlight;
+			productReference = 0FC0E7BF29DCEE7B00EB34F2 /* nostrlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FC0E7CE29DCEE7E00EB34F2 /* nostrlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC0E7E629DCEE7E00EB34F2 /* Build configuration list for PBXNativeTarget "nostrlightTests" */;
+			buildPhases = (
+				041B665A759881EE6E97B03E /* [CP] Check Pods Manifest.lock */,
+				0FC0E7CB29DCEE7E00EB34F2 /* Sources */,
+				0FC0E7CC29DCEE7E00EB34F2 /* Frameworks */,
+				0FC0E7CD29DCEE7E00EB34F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC0E7D129DCEE7E00EB34F2 /* PBXTargetDependency */,
+			);
+			name = nostrlightTests;
+			productName = nostrlightTests;
+			productReference = 0FC0E7CF29DCEE7E00EB34F2 /* nostrlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FC0E7D829DCEE7E00EB34F2 /* nostrlightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC0E7E929DCEE7E00EB34F2 /* Build configuration list for PBXNativeTarget "nostrlightUITests" */;
+			buildPhases = (
+				717CA9DACD4EDFE24B77B585 /* [CP] Check Pods Manifest.lock */,
+				0FC0E7D529DCEE7E00EB34F2 /* Sources */,
+				0FC0E7D629DCEE7E00EB34F2 /* Frameworks */,
+				0FC0E7D729DCEE7E00EB34F2 /* Resources */,
+				F6DB5E3174EB31623618E0EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC0E7DB29DCEE7E00EB34F2 /* PBXTargetDependency */,
+			);
+			name = nostrlightUITests;
+			productName = nostrlightUITests;
+			productReference = 0FC0E7D929DCEE7E00EB34F2 /* nostrlightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FC0E7B729DCEE7B00EB34F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0FC0E7BE29DCEE7B00EB34F2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0FC0E7CE29DCEE7E00EB34F2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0FC0E7BE29DCEE7B00EB34F2;
+					};
+					0FC0E7D829DCEE7E00EB34F2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0FC0E7BE29DCEE7B00EB34F2;
+					};
+				};
+			};
+			buildConfigurationList = 0FC0E7BA29DCEE7B00EB34F2 /* Build configuration list for PBXProject "nostrlight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FC0E7B629DCEE7B00EB34F2;
+			productRefGroup = 0FC0E7C029DCEE7B00EB34F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FC0E7BE29DCEE7B00EB34F2 /* nostrlight */,
+				0FC0E7CE29DCEE7E00EB34F2 /* nostrlightTests */,
+				0FC0E7D829DCEE7E00EB34F2 /* nostrlightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FC0E7BD29DCEE7B00EB34F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC0E7CA29DCEE7D00EB34F2 /* Preview Assets.xcassets in Resources */,
+				0FC0E7C729DCEE7D00EB34F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC0E7CD29DCEE7E00EB34F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC0E7D729DCEE7E00EB34F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041B665A759881EE6E97B03E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nostrlightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04D8B7F86E3EA79F1B45BC4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nostrlight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41EC5C8626A1C5BEDAA61735 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nostrlight/Pods-nostrlight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nostrlight/Pods-nostrlight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nostrlight/Pods-nostrlight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717CA9DACD4EDFE24B77B585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nostrlight-nostrlightUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DB5E3174EB31623618E0EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nostrlight-nostrlightUITests/Pods-nostrlight-nostrlightUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nostrlight-nostrlightUITests/Pods-nostrlight-nostrlightUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nostrlight-nostrlightUITests/Pods-nostrlight-nostrlightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FC0E7BB29DCEE7B00EB34F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC0E7C529DCEE7B00EB34F2 /* ContentView.swift in Sources */,
+				0FC0E7F429DCEF5900EB34F2 /* BaseViewModel.swift in Sources */,
+				0FC0E7F229DCEF2C00EB34F2 /* breez_sdk.swift in Sources */,
+				0FC0E7C329DCEE7B00EB34F2 /* nostrlightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC0E7CB29DCEE7E00EB34F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC0E7D429DCEE7E00EB34F2 /* nostrlightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC0E7D529DCEE7E00EB34F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC0E7E029DCEE7E00EB34F2 /* nostrlightUITestsLaunchTests.swift in Sources */,
+				0FC0E7DE29DCEE7E00EB34F2 /* nostrlightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FC0E7D129DCEE7E00EB34F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FC0E7BE29DCEE7B00EB34F2 /* nostrlight */;
+			targetProxy = 0FC0E7D029DCEE7E00EB34F2 /* PBXContainerItemProxy */;
+		};
+		0FC0E7DB29DCEE7E00EB34F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FC0E7BE29DCEE7B00EB34F2 /* nostrlight */;
+			targetProxy = 0FC0E7DA29DCEE7E00EB34F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FC0E7E129DCEE7E00EB34F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FC0E7E229DCEE7E00EB34F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FC0E7E429DCEE7E00EB34F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85493342B1CA1D6A810896E4 /* Pods-nostrlight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nostrlight/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QZBRR3WB2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.generalist.nostrlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FC0E7E529DCEE7E00EB34F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC47E24FFBE6407DCB95647 /* Pods-nostrlight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nostrlight/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QZBRR3WB2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.generalist.nostrlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FC0E7E729DCEE7E00EB34F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E48C570128739AFA19A36E /* Pods-nostrlightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QZBRR3WB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.generalist.nostrlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nostrlight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nostrlight";
+			};
+			name = Debug;
+		};
+		0FC0E7E829DCEE7E00EB34F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDACF351039DB3FA1CB753E9 /* Pods-nostrlightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QZBRR3WB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.generalist.nostrlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nostrlight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nostrlight";
+			};
+			name = Release;
+		};
+		0FC0E7EA29DCEE7E00EB34F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE40060E79C9730098A3EA4E /* Pods-nostrlight-nostrlightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QZBRR3WB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.generalist.nostrlightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nostrlight;
+			};
+			name = Debug;
+		};
+		0FC0E7EB29DCEE7E00EB34F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05194EA5A109FECB45A4F2B1 /* Pods-nostrlight-nostrlightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QZBRR3WB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.generalist.nostrlightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nostrlight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FC0E7BA29DCEE7B00EB34F2 /* Build configuration list for PBXProject "nostrlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC0E7E129DCEE7E00EB34F2 /* Debug */,
+				0FC0E7E229DCEE7E00EB34F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC0E7E329DCEE7E00EB34F2 /* Build configuration list for PBXNativeTarget "nostrlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC0E7E429DCEE7E00EB34F2 /* Debug */,
+				0FC0E7E529DCEE7E00EB34F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC0E7E629DCEE7E00EB34F2 /* Build configuration list for PBXNativeTarget "nostrlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC0E7E729DCEE7E00EB34F2 /* Debug */,
+				0FC0E7E829DCEE7E00EB34F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC0E7E929DCEE7E00EB34F2 /* Build configuration list for PBXNativeTarget "nostrlightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC0E7EA29DCEE7E00EB34F2 /* Debug */,
+				0FC0E7EB29DCEE7E00EB34F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FC0E7B729DCEE7B00EB34F2 /* Project object */;
+}
